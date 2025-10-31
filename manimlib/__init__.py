@@ -48,6 +48,7 @@ from manimlib.mobject.svg.svg_mobject import *
 from manimlib.mobject.svg.special_tex import *
 from manimlib.mobject.svg.tex_mobject import *
 from manimlib.mobject.svg.text_mobject import *
+from manimlib.mobject.svg.typ_mobject import *
 from manimlib.mobject.three_dimensions import *
 from manimlib.mobject.types.dot_cloud import *
 from manimlib.mobject.types.image_mobject import *
