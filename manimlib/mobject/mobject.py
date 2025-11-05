@@ -1757,6 +1757,9 @@ class Mobject(object):
         n1 = len(mob1)
         n2 = len(mob2)
         if n1 != n2:
+            # Padding with the difference in number of submobjects
+            # If the target is smaller, the first one will not be affected
+            # TODO: consider using a simmetric padding.
             mob1.add_n_more_submobjects(max(0, n2 - n1))
             mob2.add_n_more_submobjects(max(0, n1 - n2))
         # Recurse
